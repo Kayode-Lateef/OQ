@@ -57,7 +57,7 @@ h6 {
 	padding: 0 0 10px 0;
 	font-weight: normal;
 	line-height: 120% !important;
-	color: #1f1f1f;
+	color: #494343;
 	margin: 0
 }
 
@@ -170,48 +170,6 @@ button:focus {
 	color: #ffffff;
 	opacity: 1;
 }
-
-.section-btn {
-    background: #ce3232;
-    border: 0;
-    border-radius: 100px;
-    color: #ffffff;
-    cursor: pointer;
-    font-size: inherit;
-    font-weight: normal;
-    padding: 15px 30px;
-    -webkit-transition: 0.5s;
-	transition: 0.5s;
-	
-  }
-
-  .section-btn:hover,
-  .section-btn:focus {
-    background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-color: transparent;
-    color: #393939;
-  }
-
-  .top-header .section-btn {
-	padding: 15px;
-    /* margin-left: 2em; */
-  }
-  
-  .top-header .section-btn:hover {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
-
-  .top-header .section-btn a {
-    padding: 0;
-  }
-
-  .top-header .site_information .section-btn a:hover {
-    color: #ffffff;
-  }
 
 
 /*------------------------------------------------------------------ 
@@ -371,7 +329,7 @@ button:focus {
 }
 
 a:hover,a:focus {
-    color: #ff880e;
+    color: 	#7FFF00;
     text-decoration: underline;
 }
 
@@ -408,7 +366,7 @@ a:hover,a:focus {
 }
 
 .join_bt a {
-	background: #ff880e;
+	background: #7FFF00;
     width: 180px;
     text-align: center;
 	height: 38px;
@@ -556,7 +514,7 @@ a.navbar-brand {
     display: block;
     right: 0;
     content: "";
-    background: #ff880e;
+    background: #7FFF00;
     height: 60px;
     position: absolute;
     top: 0;
@@ -655,7 +613,7 @@ a.navbar-brand {
 } */
 
 .theme_color {
-	color: #ff880e;
+	color: #7FFF00;
 }
 
 .menu_orange_section {
@@ -671,7 +629,7 @@ a.navbar-brand {
     position: relative;
     content: "";
     display: block;
-    background: #ff880e;
+    background: #7FFF00;
     left: -35px;
     transform: skew(30deg);
 
@@ -683,7 +641,7 @@ a.navbar-brand {
     float: left;
     text-align: center;
     line-height: 55px;
-    border: solid #ff880e 1px;
+    border: solid #7FFF00 1px;
     font-size: 18px;
     margin-top: 10px;
     background: #fff;
@@ -787,7 +745,7 @@ a.navbar-brand {
 }
 
 .pogoSlider-nav-btn--selected {
-	background: #ff880e !important;
+	background: #7FFF00 !important;
 }
 
 .pogoSlider--navBottom .pogoSlider-nav {
@@ -1043,7 +1001,7 @@ a.navbar-brand {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #d66c0b;
+	background: #7FFF00;
 	border-radius: 100%;
 	-webkit-transform: scale(0);
 	transform: scale(0);
@@ -1839,7 +1797,7 @@ select.form-control:not([size]):not([multiple]) {
 
 .menu_footer li a:hover,
 .menu_footer li a:focus {
-	color: #d66c0b !important;
+	color: #7FFF00 !important;
 }
 
 .menu_footer li {
@@ -1862,7 +1820,7 @@ select.form-control:not([size]):not([multiple]) {
 
 footer.footer-box h3 {
     font-size: 30px;
-    border-bottom: solid #d66c0b 4px;
+    border-bottom: solid #7FFF00 4px;
     margin-bottom: 15px;
 }
 
@@ -1872,7 +1830,7 @@ footer.footer-box h3 {
 
 footer.footer-box h3 {
     font-size: 30px;
-    border-bottom: solid #d66c0b 4px;
+    border-bottom: solid #7FFF00 4px;
     margin-bottom: 25px;
 }
 
@@ -1956,6 +1914,7 @@ p {
 }
 
 .text_align_right_img img {
+	margin-top: 100px;
     float: right;
 }
 
@@ -1979,6 +1938,8 @@ p {
 .white_fonts a.read_more {
 	color: #fff !important;
 }
+
+
 
 .red_bg .about-main-info a {
 	background: #fff;
@@ -2029,7 +1990,7 @@ p {
 .heading_main h2::after {
     width: 250px;
     height: 8px;
-    background: #ff880e;
+    background: #7FFF00;
     content: "";
     display: block;
     transform: skew(-30deg);
@@ -2229,7 +2190,7 @@ ul.social_icon li {
 }
 
 .newsletter_form button {
-    background: #d66c0b;
+    background: #7FFF00;
     color: #fff;
     border: none;
     font-size: 14px;
@@ -2276,7 +2237,7 @@ ul.social_icon li {
     position: absolute;
     left: 0;
     bottom: 0;
-    background: #ff880e;
+    background: #7FFF00;
     padding: 15px 0 5px;
     text-align: center;
     transition: ease all 0.25s;
@@ -2381,7 +2342,7 @@ ul.bottom_menu li {
 }
 
 .contact_form {
-    background: url('../images/contact_bg.png');
+    background: url('../images/btc2.jpg');
     background-size: cover;
     background-position: center center;
     min-height: 650px;
@@ -2390,11 +2351,11 @@ ul.bottom_menu li {
 
 .field input {
     width: 100%;
-    background: #0e0606;
+    background: #ffffff;
     min-height: 65px;
     border: none;
     margin: 15px 0;
-    color: #fff;
+    color: #000;
     padding: 0 25px;
     font-size: 17px;
     font-weight: 300;
@@ -2402,11 +2363,11 @@ ul.bottom_menu li {
 
 .field textarea {
     width: 100%;
-    background: #0e0606;
+    background: #ffffff;
     min-height: 120px;
     border: none;
     margin: 15px 0;
-    color: #fff;
+    color: #000;
     padding: 25px;
     font-size: 17px;
     font-weight: 300;
@@ -2427,7 +2388,7 @@ ul.bottom_menu li {
 .contact_form_inner button:hover,
 .contact_form_inner button:focus {
     color: #fff;
-    background: #050000;
+    background: #7FFF00;
 }
 
 
@@ -2533,7 +2494,7 @@ ul.bottom_menu li {
   }
 
   .modal-dialog form input[type="submit"] {
-    background:  #d66c0b;
+    background:  #7FFF00;
     border-color: transparent;
     border-radius: 100px;
     color: #ffffff;
