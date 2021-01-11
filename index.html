@@ -44,13 +44,10 @@
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
     <!-- LOADER -->
-    <div id="preloader">
-        <div class="loader">
-            <img src="images/loader.gif" alt="#" />
-        </div>
-    </div>
-    <!-- end loader -->
-    <!-- END LOADER -->
+
+    <div id="preloader"></div>
+
+       <!-- END LOADER -->
 
     <!-- Start header -->
     <header class="top-header">
@@ -64,7 +61,7 @@
                     <div class="site_information">
                         <ul>
                             <li><a href="mailto:exchang@gmail.com"><img src="images/mail_icon.png" alt="#" /> gmail@gmail.com</a></li>
-                            <li><a href="tel:exchang@gmail.com"><img src="images/phone_icon.png" alt="#" />+2348037670907</a></li>
+                            <li><a href="https://wa.me/2348037670907"><img src="images/phone_icon.png" alt="#" />+2348037670907</a></li>
                             <li class="join_bt"><a href="#" data-toggle="modal" data-target="#modal-form">Sign in /
                                 Join us</a></li>
                         </ul>
@@ -98,12 +95,7 @@
                 </div>
                      </div>
                  </nav>
-                 <!-- <div class="search-box">
-                    <input type="text" class="search-txt" placeholder="Search">
-                    <a class="search-btn">
-                        <img src="images/search_icon.png" alt="#" />
-                    </a>
-                </div>  -->
+            
                 </div>
             </div>
           </div>
@@ -200,6 +192,10 @@ Our platform provides world class financial stability by maintaining full reserv
         </div>
     </div>
 	<!-- end section -->
+    
+
+   
+
     <!-- section -->
     <div class="section layout_padding">
         <div class="container-fluid">
@@ -213,36 +209,50 @@ Our platform provides world class financial stability by maintaining full reserv
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="full services_blog">
-                       <img class="img-responsive" src="images/s1.png" alt="#" />
-                       <h4>Safe & Secure</h4>
+                <div class="col-md-4">
+                    <div class="service-box">
+                      <div class="service-ico">
+                        <span class="ico-circle"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                      </div>
+                      <div class="service-content">
+                        <h4 class="s-title">Safe & Secure</h4>
+                        <p class="s-description text-center">
+                          We will never share your personal details to a third party. Every user transaction information is kept private, at all times.
+                        </p>
+                      </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="full services_blog">
-                        <img class="img-responsive" src="images/s2.png" alt="#" />
-                        <h4>Mobile Apps</h4>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="service-box">
+                      <div class="service-ico">
+                        <span class="ico-circle"><ion-icon name="timer-outline"></ion-icon></span>
+                      </div>
+                      <div class="service-content">
+                        <h4 class="s-title">Experts Support </h4>
+                        <p class="s-description text-center">
+                          We are always available to handle your orders with significant speed. Trade your crypto and e-currencies, all day long. Zero hassles, zero delays.              </p>
+                      </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="full services_blog">
-                        <img class="img-responsive" src="images/s3.png" alt="#" />
-                        <h4>Wallet</h4>
+                  </div>
+               
+                  <div class="col-md-4">
+                    <div class="service-box">
+                      <div class="service-ico">
+                        <span class="ico-circle"><ion-icon name="wallet-outline"></ion-icon></span>
+                      </div>
+                      <div class="service-content">
+                        <h4 class="s-title">Wallets</h4>
+                        <p class="s-description text-center">
+                          Sell or trade your bitcoin for naira within minutes. Send or receive bitcoin instantly in Nigeria. Buy perfect money, ethereum, and bitcoin with your bank account or debit card.              </p>
+                      </div>
                     </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <div class="full services_blog">
-                        <img class="img-responsive" src="images/s4.png" alt="#" />
-                        <h4>Experts Support</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row margin-top_30">
-                <div class="col-sm-12">
+                  </div>
+                
+            <div style="margin: auto;" class="row margin-top_30">
+                <div class="col-md-12">
                     <div class="full">
                         <div class="center">
-                            <a class="main_bt" href="services.html">Read more ></a>
+                            <a class="main_bt" href="#">See More ></a>
                         </div>
                     </div>
                 </div>
@@ -250,13 +260,18 @@ Our platform provides world class financial stability by maintaining full reserv
         </div>
     </div>
     <!-- end section -->
+
+
+
+
+
     <!-- section -->
     <div class="section white_fonts" style="background: #7FFF00;">
         <div class="container">
             <div class="row">
-                <div class="col-md-6" style="background: #fff;">
+                <div class="col-md-6">
                     <div class="full text_align_right_img">
-                        <img src="images/img2.png" alt="#" />
+                        <img src="images/btc8.jpg" alt="#" />
                     </div>
                 </div>
                 <div class="col-md-6 layout_padding">
@@ -270,11 +285,7 @@ Our platform provides world class financial stability by maintaining full reserv
 <!-- Cryptocurrency Price Widget -->
 <script>!function(){var e=document.getElementsByTagName("script"),t=e[e.length-1],n=document.createElement("script");function r(){var e=crCryptocoinPriceWidget.init({base:"USD,EUR,CNY,GBP",items:"BTC,ETH,XRPUP",backgroundColor:"7FFF00",streaming:"1",rounded:"1",boxShadow:"1",border:"1"});t.parentNode.insertBefore(e,t)}n.src="https://co-in.io/widget/pricelist.js?items=BTC%2CETH%2CXRPUP",n.async=!0,n.readyState?n.onreadystatechange=function(){"loaded"!=n.readyState&&"complete"!=n.readyState||(n.onreadystatechange=null,r())}:n.onload=function(){r()},t.parentNode.insertBefore(n,null)}();</script><a style="color:#000;"  href="https://currencyrate.today/">Currency Converter</a><!-- /Cryptocurrency Price Widget -->
 
-                        <!-- Cryptocurrency Price Widget -->
-
-                        <!-- <script>!function(){var e=document.getElementsByTagName("script"),t=e[e.length-1],n=document.createElement("script");function r(){var e=crCryptocoinPriceWidget.init({base:"USD,EUR,CNY,GBP",items:"BTC,ETH,XRPUP",backgroundColor:"#000",streaming:"1",striped:"1",rounded:"1",boxShadow:"1",border:"1"});t.parentNode.insertBefore(e,t)}n.src="https://co-in.io/widget/pricelist.js?items=BTC%2CETH%2CXRPUP",n.async=!0,n.readyState?n.onreadystatechange=function(){"loaded"!=n.readyState&&"complete"!=n.readyState||(n.onreadystatechange=null,r())}:n.onload=function(){r()},t.parentNode.insertBefore(n,null)}();</script><a style="color:#fff;" href="https://currencyrate.today/">Currency Converter</a> -->
-                        <!-- /Cryptocurrency Price Widget -->
-                                     
+                              
                     </div>
 
 
@@ -587,7 +598,9 @@ Our platform provides world class financial stability by maintaining full reserv
     <script src="js/isotope.min.js"></script>
     <script src="js/images-loded.min.js"></script>
     <script src="js/custom.js"></script>
-	<script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    
+    <script>
 	/* counter js */
 
 (function ($) {
