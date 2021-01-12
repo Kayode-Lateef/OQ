@@ -114,7 +114,7 @@ padding: 7px 15px;
          color: #0892fd;
     }
      .slide_text p {
-         display: none;
+         /* display: none; */
     }
      .contact_bt {
          margin-top: 10px;
@@ -391,27 +391,28 @@ padding: 7px 15px;
          height: auto;
          margin-bottom: 20px;
     }
-    .search-box {
-        right: 15px;
-        top: 13px;
-    }
+    
      a.navbar-brand {
          left: 0;
          position: relative;
     }
      .slide_text {
          margin-top: 10%;
-		 display:none;
+		 /* display:none; */
     }
      .slide_text h3 {
-         font-size: 20px;
+         font-size: 25px;
     }
      .slide_text h4 {
-         font-size: 16px;
-         margin: -20px 0;
+         font-size: 18px;
+         margin: -8px 0;
     }
+
+    .slide_text h3 strong {
+        font-size: 28px;
+     }
      .slide_text p {
-         display: none;
+         /* display: none; */
     }
      .contact_bt {
          width: 90px;

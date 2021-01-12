@@ -30,6 +30,39 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
 
+
+<!-- -------------------Testimonial Libraries-------------------------------------------- -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+
+<script>
+    $(document).ready(function(){
+        $("#testimonial-slider").owlCarousel({
+            items:3,
+            itemsDesktop:[1199,3],
+            itemsDesktopSmall:[1000,2],
+            itemsTablet:[767,1],
+            pagination: true,
+            navigation:true,
+            navigationText:["",""],
+            autoPlay:true
+        });
+    });
+        </script>
+
+
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -40,7 +73,6 @@
 <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
     <!-- LOADER -->
-    <div id="preloader">
         <div id="preloader"></div>
 
     <!-- END LOADER -->
@@ -84,17 +116,12 @@
                         <li><a class="nav-link" href="services.html">Services</a></li>
                         <li><a class="nav-link" href="testimonial.html">Testimonials</a></li>
                         <li><a class="nav-link" href="contact.html">Contact</a></li>
-                        <li><a class="nav-link" href="#">Buy/Sell</a></li>
+                        <li><a class="nav-link" href="login.html">Buy/Sell</a></li>
                     </ul>
                 </div>
                      </div>
                  </nav>
-                 <!-- <div class="search-box">
-                    <input type="text" class="search-txt" placeholder="Search">
-                    <a class="search-btn">
-                        <img src="images/search_icon.png" alt="#" />
-                    </a>
-                </div>  -->
+                 
                 </div>
             </div>
           </div>
@@ -129,98 +156,67 @@
                     </div>
                 </div>
             </div>
+
             <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="full news_blog">
-                       <!-- <img class="img-responsive" src="images/b1.png" alt="#" />
-                       <div class="overlay"><a class="main_bt transparent" href="#">View</a></div>
-                       <div class="blog_details">
-                         <h3>Bitcoin News</h3>
-                         <p>pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                       </div> -->
+
+                <div class="col-md-12">
+                    <div id="testimonial-slider" class="owl-carousel">
+                        <div class="testimonial">
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo nulla dictum felis sollicitudin, euismod finibus augue vulputate. Sed aliquam, elit eu gravida dignissim, justo dolor vulputate ipsum, a dapibus purus dui vitae purus..
+                            </p>
+                            <div class="pic">
+                                <img src="images/Affluent-Women-Mailing-Lists.jpg" alt=""/>
+                            </div>
+                            <div class="testimonial-prof">
+                                <h4>kayode</h4>
+                                <small>Web Developer</small>
+                            </div>
+                        </div>
+
+                        <div class="testimonial">
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo nulla dictum felis sollicitudin, euismod finibus augue vulputate. Sed aliquam, elit eu gravida dignissim.
+                            </p>
+                            <div class="pic">
+                                <img src="images/person-2.jpg" alt=""/>
+                            </div>
+                            <div class="testimonial-prof">
+                                <h4>kayode</h4>
+                                <small>Web Designer</small>
+                            </div>
+                        </div>
+
+                        <div class="testimonial">
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo nulla dictum felis sollicitudin, euismod finibus augue vulputate. Sed aliquam, elit eu gravida dignissim, justo dolor vulputate ipsum, a dapibus purus dui vitae purus..
+                            </p>
+                            <div class="pic">
+                                <img src="images/Sam-Revilter.jpg" alt=""/>
+                            </div>
+                            <div class="testimonial-prof">
+                                <h4>kayode</h4>
+                                <small>Web Designer</small>
+                            </div>
+                        </div>
+
+                        <div class="testimonial">
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis commodo nulla dictum felis sollicitudin, euismod finibus augue vulputate. Sed aliquam, elit eu gravida dignissim.
+                            </p>
+                            <div class="pic">
+                                <img src="images/team4-large.jpg" alt=""/>
+                            </div>
+                            <div class="testimonial-prof">
+                                <h4>kayode</h4>
+                                <small>Web Developer</small>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="full news_blog">
-                        <!-- <img class="img-responsive" src="images/b2.png" alt="#" />
-                        <div class="overlay"><a class="main_bt transparent" href="#">View</a></div>
-                       <div class="blog_details">
-                         <h3>Ethereum News</h3>
-                         <p>pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                       </div> -->
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="full news_blog">
-                        <!-- <img class="img-responsive" src="images/b3.png" alt="#" />
-                        <div class="overlay"><a class="main_bt transparent" href="#">View</a></div>
-                       <div class="blog_details">
-                         <h3>Light News</h3>
-                         <p>pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                       </div> -->
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="full news_blog">
-                       <!-- <img class="img-responsive" src="images/b1.png" alt="#" />
-                       <div class="overlay"><a class="main_bt transparent" href="#">View</a></div>
-                       <div class="blog_details">
-                         <h3>Bitcoin News</h3>
-                         <p>pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                       </div> -->
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="full news_blog">
-                        <!-- <img class="img-responsive" src="images/b2.png" alt="#" />
-                        <div class="overlay"><a class="main_bt transparent" href="#">View</a></div>
-                       <div class="blog_details">
-                         <h3>Ethereum News</h3>
-                         <p>pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                       </div> -->
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="full news_blog">
-                        <!-- <img class="img-responsive" src="images/b3.png" alt="#" />
-                        <div class="overlay"><a class="main_bt transparent" href="#">View</a></div>
-                       <div class="blog_details">
-                         <h3>Light News</h3>
-                         <p>pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                       </div> -->
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="full news_blog">
-                       <!-- <img class="img-responsive" src="images/b1.png" alt="#" />
-                       <div class="overlay"><a class="main_bt transparent" href="#">View</a></div>
-                       <div class="blog_details">
-                         <h3>Bitcoin News</h3>
-                         <p>pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                       </div> -->
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="full news_blog">
-                        <!-- <img class="img-responsive" src="images/b2.png" alt="#" />
-                        <div class="overlay"><a class="main_bt transparent" href="#">View</a></div>
-                       <div class="blog_details">
-                         <h3>Ethereum News</h3>
-                         <p>pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                       </div> -->
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="full news_blog">
-                        <!-- <img class="img-responsive" src="images/b3.png" alt="#" />
-                        <div class="overlay"><a class="main_bt transparent" href="#">View</a></div>
-                       <div class="blog_details">
-                         <h3>Light News</h3>
-                         <p>pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                       </div> -->
-                    </div>
-                </div>
-             </div>
+
+             
+            </div>
         </div>
     </div>
     <!-- end section -->
@@ -273,8 +269,8 @@
                              <ul class="full">
                                <li><img src="images/i5.png"><span>Sagamu 145<br>Nigeria</span></li>
                                <li><img src="images/i6.png"><span>gmail@gmail.com</span></li>
-                               <li><img src="images/i7.png"><span>+234number</span></li>
-                             </ul>
+                               <li><img src="images/i7.png"><span>+2348037670907</span></li>
+                            </ul>
                          </div>
                             </div>
                         </div>
@@ -369,7 +365,7 @@
 
 
     <!-- ALL JS FILES -->
-    <script src="js/jquery.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script> -->
 	<script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
