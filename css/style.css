@@ -480,55 +480,6 @@ a.navbar-brand {
 }
 
 
-/* search bar */
-/* 
-.search-box {
-    position: absolute;
-    float: right;
-    right: 10px;
-    top: 9px;
-    z-index: 11;
-}
-
-.search-box:hover .search-txt {
-	width: 240px;
-	padding: 0 10px;
-}
-
-.top-header #navbar-wd {
-    padding-right: 0;
-}
-
-.search-btn {
-    float: right;
-    width: 41px;
-    height: 41px;
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #111;
-}
-
-.search-txt {
-	border: none;
-	outline: none;
-	float: left;
-	padding: 0;
-	color: #000;
-	font-size: 14px;
-	line-height: 41px;
-	width: 0;
-	transition: width 400ms;
-	background: #fff;
-	padding: 0;
-	font-weight: 400;
-}
-
-.search-btn img {
-    padding: 2px;
-} */
-
 .theme_color {
 	color: #7FFF00;
 }
@@ -749,7 +700,7 @@ a.navbar-brand {
 }
 
 /*------------------------------------------------------------------ About -------------------------------------------------------------------*/
-
+/* 
 .tooltip-1 {
 	display: inline-block;
 	position: relative;
@@ -775,7 +726,7 @@ a.navbar-brand {
 	height: 100%;
 	background: url(../images/wave.svg) repeat-x center center;
 	background-size: 50% auto;
-}
+} */
 
 .inner_page_banner h3 {
     font-size: 42px;
@@ -1598,7 +1549,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .footer-box {
-    background: #3a1e02;
+    background: #1e1e1e;
     padding: 50px 0;
 }
 
@@ -1837,8 +1788,7 @@ p {
         margin-top: 25px;
     }
 }
-@charset "utf-8";
-/* CSS Document */
+
 
 
   /* ------------------------------------------------------------------------------- */
@@ -1850,12 +1800,7 @@ p {
 	color: #e91327;
 }
 
-/* .testimonial_img {
-	text-align: center;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-} */
+
 
 .mfp-figure figure .mfp-bottom-bar {
 	display: none;
@@ -2045,8 +1990,7 @@ ul.social_icon li {
 }
 
 .footer_bottom {
-
-    background: #532a02;
+    background: #7FFF00;
     padding: 0 0;
     width: 100%;
     min-height: 82px;
@@ -2058,7 +2002,7 @@ ul.social_icon li {
 .footer_bottom p.crp {
     float: left;
     margin: 0;
-    color: #fff;
+    color: #1e1e1e;
     font-size: 16px;
     text-align: center;
     width: 100%;
