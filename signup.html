@@ -164,17 +164,17 @@
                     <form>
                         <label for="username">Username</label>
                         <div class="form-group">
-                            <input type="text" class="form-control item" id="username" placeholder="Username">
+                            <input type="text" class="form-control item" id="username" placeholder="Username" required>
                         </div>
                         <label for="fullname">Full name</label>
 
                         <div class="form-group">
-                            <input type="text" class="form-control item" id="fullname" placeholder="Full name">
+                            <input type="text" class="form-control item" id="fullname" placeholder="Full name" required>
                         </div>
 
                         <div class="form-group">
                             <label for="gender">Gender</label>
-                            <select class="form-control item" id="gender" name="gender">
+                            <select class="form-control item" id="gender" name="gender" required>
                                 <option value="Male">Male</option>
                                 <option value="Female">Female</option>
                             </select>
@@ -226,21 +226,21 @@
                             
                                 <div class="form-group">
                                     <label for="number">Number</label>
-                                <input type="text" class="form-control item" id="phone-number" placeholder="e.g +2348037670907">
+                                <input type="text" class="form-control item" id="phone-number" placeholder="e.g +2348037670907" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
     
-                                <input type="email" class="form-control item" id="email" placeholder="Email">
+                                <input type="email" class="form-control item" id="email" placeholder="Email" required>
                             </div>
                             <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control item" id="password" placeholder="Password">
+                            <input type="password" class="form-control item" id="password" placeholder="Password" required>
                         </div>
 
                         <div class="form-group">
                             <label for="password">Confirm Password</label>
-                            <input type="password" class="form-control item" id="password" placeholder="Re-type Password">
+                            <input type="password" class="form-control item" id="password" placeholder="Re-type Password" required>
                         </div>
                         
                         <div class="form-group">
@@ -359,12 +359,6 @@
         <script src="js/custom.js"></script>
         <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 
-        <script>
-            $(document).ready(function(){
-          $('#birth-date').mask('00/00/0000');
-          $('#phone-number').mask('0000-0000');
-         })
-        </script>
 
 </body>
 
