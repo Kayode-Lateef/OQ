@@ -27,15 +27,15 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css" />
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
     
+    <!-- External css libraries -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
-     <!-- External css libraries -->
-     <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
- 
- 
+
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -88,26 +88,26 @@
                                     <span></span>
                                 </button>
                                 <div class="collapse navbar-collapse " id="navbar-wd">
-                             <ul class="navbar-nav">
-                                        <li><a class="nav-link" href="index.html">Home</a></li>
-                                        <li><a class="nav-link" href="about.html">About</a></li>
-                                        <li><a class="nav-link" href="exchange.html">Exchange</a></li>
-                                        <li><a class="nav-link" href="services.html">Services</a></li>
-                                        <li><a class="nav-link" href="testimonial.html">Testimonials</a></li>
-                                         <!-- Dropdown -->
-                                <li class="navbar-nav nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                         <!-- <i class="fa fa-book fa-fw" aria-hidden="true"></i>  -->
-                                         Login/Sign-up                                         </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class=" nav-link dropdown-item" href="login.html">Sign in</a></li>
-                                        <li><a class="nav-link dropdown-item" href="signup.html">Register</a></li>
-                                    </ul>
-                                </li>
-                                        <li><a class="nav-link" href="contact.html">Contact</a></li>
-                                </ul>
-                                  
-                                </div>
+                                    <ul class="navbar-nav">
+                                               <li><a class="nav-link" href="index.html">Home</a></li>
+                                               <li><a class="nav-link" href="about.html">About</a></li>
+                                               <li><a class="nav-link" href="exchange.html">Exchange</a></li>
+                                               <li><a class="nav-link" href="services.html">Services</a></li>
+                                               <li><a class="nav-link" href="testimonial.html">Testimonials</a></li>
+                                                <!-- Dropdown -->
+                                       <li class="navbar-nav nav-item dropdown">
+                                               <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                                <!-- <i class="fa fa-book fa-fw" aria-hidden="true"></i>  -->
+                                                Login/Sign-up                                         </a>
+                                           <ul class="dropdown-menu">
+                                               <li><a class=" nav-link dropdown-item" href="login.html">Sign in</a></li>
+                                               <li><a class="nav-link dropdown-item" href="signup.html">Register</a></li>
+                                           </ul>
+                                       </li>
+                                               <li><a class="nav-link" href="contact.html">Contact</a></li>
+                                       </ul>
+                                         
+                                       </div>
                             </div>
                         </nav>
                     </div>
@@ -124,7 +124,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="banner_title">
-                        <h3>Login</h3>
+                        <h3>Register</h3>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@
                 <div class="col-md-12">
                     <div class="full">
                         <div class="heading_main text_align_center">
-                            <h2><span class="theme_color"></span>Login</h2>
+                            <h2><span class="theme_color"></span>Register</h2>
                         </div>
                     </div>
                 </div>
@@ -152,53 +152,119 @@
         </div>
         <!-- end section -->
 
-        
-        
+
+
         <div class="section layout_padding form_section">
             <div class="container">
 
                 <div class="registration-form">
-                    
-         <h5 style="text-align: center;">Please login with your e-mail and password to access your account</p>
-                      
+                   
+                    <h5 style="text-align: center;"> Please fill up the form to sign up</h5>
+
                     <form>
-                        
-          
+                        <label for="username">Username</label>
                         <div class="form-group">
-                            <input type="email" class="form-control item" id="email" placeholder="Email">
+                            <input type="text" class="form-control item" id="username" placeholder="Username">
                         </div>
-        
+                        <label for="fullname">Full name</label>
+
                         <div class="form-group">
+                            <input type="text" class="form-control item" id="fullname" placeholder="Full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select class="form-control item" id="gender" name="gender">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group ">
+                            <label for="name">State</label>
+                            <select class="span6 form-control item" name="country" required="">
+                            <option value="">Please select</option>
+                            <option value="Abia">Abia</option>
+                            <option value="Adamawa">Adamawa</option>
+                            <option value="Akwa Ibom">Akwa Ibom</option>
+                            <option value="Anambra">Anambra</option>
+                            <option value="Bauchi">Bauchi</option>
+                            <option value="Bayelsa">Bayelsa</option>
+                            <option value="Benue">Benue</option>
+                            <option value="Borno">Borno</option>
+                            <option value="Cross River">Cross River</option>
+                            <option value="Delta">Delta</option>
+                            <option value="Ebonyi">Ebonyi</option>
+                            <option value="Edo">Edo</option>
+                            <option value="Ekiti">Ekiti</option>
+                            <option value="Enugu">Enugu</option>
+                            <option value="Gombe">Gombe</option>
+                            <option value="Imo">Imo</option>
+                            <option value="Jigawa">Jigawa</option>
+                            <option value="Kaduna">Kaduna</option>
+                            <option value="Kano">Kano</option>
+                            <option value="Katsina">Katsina</option>
+                            <option value="Kebbi">Kebbi</option>
+                            <option value="Kogi">Kogi</option>
+                            <option value="Kwara">Kwara</option>
+                            <option value="Lagos">Lagos</option>
+                            <option value="Nasarawa">Nasarawa</option>
+                            <option value="Niger">Niger</option>
+                            <option value="Ogun">Ogun</option>
+                            <option value="Ondo">Ondo</option>
+                            <option value="Osun">Osun</option>
+                            <option value="Oyo">Oyo</option>
+                            <option value="Plateau">Plateau</option>
+                            <option value="Rivers">Rivers</option>
+                            <option value="Sokoto">Sokoto</option>
+                            <option value="Taraba">Taraba</option>
+                            <option value="Yobe">Yobe</option>
+                            <option value="Zamfara">Zamfara</option>
+                            <option value="FCT">FCT</option>
+                            </select>
+                            </div>
+                            
+                                <div class="form-group">
+                                    <label for="number">Number</label>
+                                <input type="text" class="form-control item" id="phone-number" placeholder="e.g +2348037670907">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+    
+                                <input type="email" class="form-control item" id="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                            <label for="password">Password</label>
                             <input type="password" class="form-control item" id="password" placeholder="Password">
                         </div>
 
                         <div class="form-group">
-                            <span  style="font-size: 15px;"><input type="checkbox" name="" id=""> Remember Me 
-                            </span>
-                             
+                            <label for="password">Confirm Password</label>
+                            <input type="password" class="form-control item" id="password" placeholder="Re-type Password">
                         </div>
-
+                        
                         <div class="form-group">
-                            <button type="submit" class="btn btn-block create-account">LOGIN NOW</button>
-                        </div>
-                        <div style="text-align: center; font-size: 15px;" class="signup">
-                            Forgot Password? 
-                            <a href="password.html">Recover Your Password Now</a>
+                            <button type="submit" class="btn btn-block create-account">Create Account</button>
                         </div>
                     </form>
-
-                    <div class="register-account">
-                        <h5>Don't have an account with us?</h5>
+                    <div class="sign-in-account">
+                        <h5> Already Registered Or Have An Account With Us?</h5>
                         <div class="signup">
-                            <a href="signup.html">Click Here To Register</a>
+                            <a href="login.html">Click Here To Login To Your Account</a>
                         </div>
                     </div>
-                   
+                       
+                    </div>
                 </div>
+                   
+               
+
+
 
 
              </div>
      </div>
+
 
 
         <!-- Start Footer -->
@@ -293,7 +359,12 @@
         <script src="js/custom.js"></script>
         <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 
-
+        <script>
+            $(document).ready(function(){
+          $('#birth-date').mask('00/00/0000');
+          $('#phone-number').mask('0000-0000');
+         })
+        </script>
 
 </body>
 

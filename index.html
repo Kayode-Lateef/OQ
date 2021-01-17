@@ -65,8 +65,7 @@
                                     nationalparrot@gmail.com</a></li>
                             <li><a href="tel:+2348037670907"><img src="images/phone_icon.png"
                                         alt="#" />+2348037670907</a></li>
-                            <li class="join_bt"><a href="#" data-toggle="modal" data-target="#modal-form">Sign in /
-                                    Join us</a></li>
+                                        <li class="join_bt"><a href="login.html">Sign in/Join us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -86,18 +85,27 @@
                                     <span></span>
                                     <span></span>
                                 </button>
-                                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                                <div class="collapse navbar-collapse " id="navbar-wd">
                                     <ul class="navbar-nav">
-                                        <li><a class="nav-link active" href="index.html">Home</a></li>
-                                        <li><a class="nav-link" href="about.html">About</a></li>
-                                        <li><a class="nav-link" href="exchange.html">Exchange</a></li>
-                                        <li><a class="nav-link" href="services.html">Services</a></li>
-                                        <li><a class="nav-link" href="testimonial.html">Testimonials</a></li>
-                                        <li><a class="nav-link" href="contact.html">Contact</a></li>
-                                        <li><a class="nav-link" href="login.html">Buy/Sell</a></li>
-
-                                    </ul>
-                                </div>
+                                               <li><a class="nav-link" href="index.html">Home</a></li>
+                                               <li><a class="nav-link" href="about.html">About</a></li>
+                                               <li><a class="nav-link" href="exchange.html">Exchange</a></li>
+                                               <li><a class="nav-link" href="services.html">Services</a></li>
+                                               <li><a class="nav-link" href="testimonial.html">Testimonials</a></li>
+                                                <!-- Dropdown -->
+                                       <li class="navbar-nav nav-item dropdown">
+                                               <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                                <!-- <i class="fa fa-book fa-fw" aria-hidden="true"></i>  -->
+                                                Login/Sign-up                                         </a>
+                                           <ul class="dropdown-menu">
+                                               <li><a class=" nav-link dropdown-item" href="login.html">Sign in</a></li>
+                                               <li><a class="nav-link dropdown-item" href="signup.html">Register</a></li>
+                                           </ul>
+                                       </li>
+                                               <li><a class="nav-link" href="contact.html">Contact</a></li>
+                                       </ul>
+                                         
+                                       </div>
                             </div>
                         </nav>
 
@@ -545,75 +553,7 @@
 
         <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
 
-
-        <!-- MODAL -->
-        <section class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content modal-popup">
-
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-
-                    <div class="modal-body">
-                        <div class="container-fluid">
-                            <div class="row">
-
-                                <div class="col-md-12 col-sm-12">
-                                    <div class="modal-title">
-                                        <h2>National Parrot Exchange</h2>
-                                    </div>
-
-                                    <!-- NAV TABS -->
-                                    <ul class="nav nav-tabs" role="tablist">
-                                        <li><a href="#sign_up" aria-controls="sign_up" role="tab"
-                                                data-toggle="tab">Create an account</a></li>
-                                        <li><a href="#sign_in" aria-controls="sign_in" role="tab" data-toggle="tab">Sign
-                                                In</a></li>
-                                    </ul>
-
-                                    <!-- TAB PANES -->
-                                    <div class="tab-content">
-                                        <div role="tabpanel" class="tab-pane fade in active" id="sign_up">
-                                            <form action="#" method="post">
-                                                <input type="text" class="form-control" name="name" placeholder="Name"
-                                                    required>
-                                                <input type="telephone" class="form-control" name="telephone"
-                                                    placeholder="Telephone" required>
-                                                <input type="email" class="form-control" name="email"
-                                                    placeholder="Email" required>
-                                                <input type="password" class="form-control" name="password"
-                                                    placeholder="Password" required>
-                                                <input type="submit" class="form-control" name="submit"
-                                                    value="Submit Button">
-                                            </form>
-                                        </div>
-
-                                        <div role="tabpanel" class="tab-pane fade in" id="sign_in">
-                                            <form action="#" method="post">
-                                                <input type="email" class="form-control" name="email"
-                                                    placeholder="Email" required>
-                                                <input type="password" class="form-control" name="password"
-                                                    placeholder="Password" required>
-                                                <input type="submit" class="form-control" name="submit"
-                                                    value="Submit Button">
-                                                <a href="">Forgot your
-                                                    password?</a>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
+        
 
         <!-- ALL JS FILES -->
         <script src="js/jquery.min.js"></script>
