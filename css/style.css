@@ -412,14 +412,14 @@ a.navbar-brand {
     color: #fff;
 }
 
-.navbar-nav .dropdown-item:hover {
-	background-color: #fed136;
-	color: #fff;
+.navbar-nav .dropdown-menu:hover {
+	background-color: #7FFF00;
+	color: #7FFF00;
   }
 
 .navbar-nav .dropdown-menu {
-	border-top: 3px solid #7FFF00;
-	background-color: #7FFF00;
+	border-top: 3px solid #fed136;
+	background-color: #fff;
 
   }
 
